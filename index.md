@@ -5,7 +5,6 @@ I hope you have a great day! :)
 # Lab Reports
 [Lab Report 1 | Week 2 | Remote Access Tutorial](https://andrewonozuka.github.io/cse15l-lab-reports/lab-report-1-week-2)
 
-
 ## Relevant Links
 [Index Page](https://andrewonozuka.github.io/cse15l-lab-reports/index)
 
