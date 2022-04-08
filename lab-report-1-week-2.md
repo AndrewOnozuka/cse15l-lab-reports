@@ -6,7 +6,7 @@
 
 1. Let's first begin by installing VScode! VScode is short for Visual Studio Code, and it a source-code editor made my Microsoft.
 
-2. [Use this link to download VScode!](https://code.visualstudio.com/download) Make sure you download the right version for your operating system (macOS, Windows, Linux)
+2. [Use this link to download VScode!](https://code.visualstudio.com/download) Make sure you download the right version for your operating system. (macOS, Windows, Linux)
 
 ![Screenshot](https://github.com/andrewonozuka/cse15l-lab-reports/blob/main/Screen%20Shot%202022-04-08%20at%2009.22.27.png?raw=true)
 
@@ -14,13 +14,22 @@
 
 ## Remotely Connecting
 
-1. Open a new terminal in VScode by going to the top of your screen and selecting "Terminal" -> "New Terminal".
+1. You will encounter course-specific accounts in many of the CSE courses at UCSD. You may also see similar individualized accounts at other institutions or future jobs, so getting used to these will help you in the future!
 
-2. Then type: "ssh cs15lsp22xxx@ieng6.ucsd.edu"
+2. Open a new terminal in VScode by going to the top of your screen and selecting "Terminal" -> "New Terminal".
+
+3. Then type:
+
+"ssh cs15lsp22xxx@ieng6.ucsd.edu"
 
 *make sure you replace the xxx with your unique three letter sequence! also make sure the quarter info is updated, it says sp22 as it is spring 2022 when this lab report is being written*
 
-3. This should then prompt you for a password. Login using your password that you use for TritonLink!
+4. The first time you log in, it will ask if you want to continue connecting. Type: "yes", and then press enter.
+
+5. You will then be prompted for a password. Login using your password that you use for TritonLink!
+
+The whole process should look like this!
+![Screenshot]()
 
 ## Trying Some Commands
 
