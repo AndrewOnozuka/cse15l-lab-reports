@@ -1,3 +1,5 @@
+[Return to Index Page](https://andrewonozuka.github.io/cse15l-lab-reports/index)
+
 This is a second file!
 
 *** below is all moved from index.md ***
