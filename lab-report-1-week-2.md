@@ -11,3 +11,4 @@ inserting image below:
 hi hope this fixes stuff lol
 
 bruh why is the page not updating smh
+ofc the second i change it it updates :///
