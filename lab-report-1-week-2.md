@@ -29,7 +29,7 @@
 5. You will then be prompted for a password. Login using your password that you use for TritonLink!
 
 The whole process should look like this!
-![Screenshot]()
+![Screenshot](https://github.com/andrewonozuka/cse15l-lab-reports/blob/main/Screen%20Shot%202022-04-08%20at%2009.46.08.png?raw=true)
 
 ## Trying Some Commands
 
