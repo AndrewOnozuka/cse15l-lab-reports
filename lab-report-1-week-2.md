@@ -19,7 +19,8 @@
 2. Then type: "ssh cs15lsp22xxx@ieng6.ucsd.edu"
 
 *make sure you replace the xxx with your unique three letter sequence! also make sure the quarter info is updated, it says sp22 as it is spring 2022 when this lab report is being written*
-3. This should then prompt you for a password.
+
+3. This should then prompt you for a password. Login using your password that you use for TritonLink!
 
 ## Trying Some Commands
 
