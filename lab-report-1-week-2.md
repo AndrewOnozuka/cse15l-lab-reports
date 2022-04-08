@@ -1,3 +1,5 @@
+[Return to Index Page](https://andrewonozuka.github.io/cse15l-lab-reports/index)
+
 # Lab Report 1 Week 2
 
 text goes here :)
