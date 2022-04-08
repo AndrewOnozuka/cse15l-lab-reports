@@ -1,3 +1,12 @@
+## Background
+My name is Ryo Andrew Onozuka. I am currently a first year undergraduate student majoring in Computer Engineering (ECE) at the University of California: San Diego. Welcome to my site for CSE 15L in SP22 quarter!
+
+# Lab Reports
+[Lab Report 1 | Week 2](https://andrewonozuka.github.io/cse15l-lab-reports/lab-report-1-week-2)
+
+[Index Page](https://andrewonozuka.github.io/cse15l-lab-reports/index)
+[Testing Page](https://andrewonozuka.github.io/cse15l-lab-reports/testing)
+
 Hello world!
 
 Successfully created a page :)
