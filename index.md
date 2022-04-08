@@ -12,6 +12,6 @@ Heading 1: put a hashtag in front of a heading.
 Heading 2: put two hashtags in front of a heading
 ## heading2
 
-Link: [Link] (https://andrewonozuka.github.io/cse15l-lab-reports/)
+Link: [Link](https://andrewonozuka.github.io/cse15l-lab-reports/)
 
 *this is like discord*
