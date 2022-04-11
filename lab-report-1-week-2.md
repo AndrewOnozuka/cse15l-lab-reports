@@ -54,6 +54,9 @@ ls -a # list all
 
 ## Moving Files with scp
 
+1. Now that you've been introduced to some basic commands, let's try to move files!
+
+
 
 ## Setting an SSH Key
 
