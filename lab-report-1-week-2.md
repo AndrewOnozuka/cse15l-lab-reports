@@ -69,6 +69,7 @@ class WhereAmI {
 3. Try compiling and running the code on your client. You should see your OS, username, current directory, etc.
 
 4. Then type in the command:
+
 ```
 scp WhereAmI.java cs15lsp22xxx@ieng6.ucsd.edu:~/
 ```
@@ -83,6 +84,9 @@ Below is my example from lab 1:
 
 ## Setting an SSH Key
 
+1. So far, we have had to re-type our password everytime to access ssh. Since this is inefficient and redundant over time, there is a way to get around this.
+
+2. 
 
 ## Optimizing Remote Running
 
