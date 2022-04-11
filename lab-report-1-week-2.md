@@ -33,6 +33,24 @@ The whole process should look like this:
 
 ## Trying Some Commands
 
+1. Now that you've been able to securely connect to the remote client, let's try running some commands!
+
+2. Here are some commands to try:
+
+pwd # print working directory
+
+cd ~ # change directory
+
+cd .. # go back one directory
+
+cd ../.. # go back two directories
+
+ls -lat # list laterally
+
+ls -a # list all
+
+3. Here's an example of what it might look like:
+![Screenshot](https://github.com/andrewonozuka/cse15l-lab-reports/blob/main/Screen%20Shot%202022-04-08%20at%2010.11.03.png?raw=true)
 
 ## Moving Files with scp
 
