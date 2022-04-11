@@ -31,6 +31,7 @@ ssh cs15lsp22xxx@ieng6.ucsd.edu
 5 | You will then be prompted for a password. Login using your password that you use for TritonLink!
 
 The whole process should look like this:
+
 ![Screenshot](https://github.com/andrewonozuka/cse15l-lab-reports/blob/main/Screen%20Shot%202022-04-08%20at%2009.46.08.png?raw=true)
 
 ## Trying Some Commands
@@ -49,6 +50,7 @@ ls -a # list all
 ```
 
 3 | Here's an example of what it might look like:
+
 ![Screenshot](https://github.com/andrewonozuka/cse15l-lab-reports/blob/main/Screen%20Shot%202022-04-08%20at%2010.11.03.png?raw=true)
 
 ## Moving Files with scp
@@ -82,6 +84,7 @@ You will then be prompted to enter your password.
 6 | If you compile and run it on ssh, you will now see a different result.
 
 Below is my example from lab 1:
+
 ![Screenshot](https://github.com/andrewonozuka/cse15l-lab-reports/blob/main/lORFbWcDjh7nzoRVQXzyWzspJ0KI1RICFO6b55nKb7HCIqC-3_zEGt_9mmPj2OaHdKoZcjn0P_Jv3bjAboM9fVAmkBLMIt3ZtUreiy591fH_mJwq3qGdAJEsYBd7.png?raw=true)
 
 ## Setting an SSH Key
@@ -136,6 +139,7 @@ cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI
 - You can also use the up arrow key to scroll back through the commands you have previously typed before, similar to a calculator! This is helpful if you accidentally made a typo at the end or just want to call a command again.
 
 Here's my example:
+
 ![Screenshot](https://github.com/andrewonozuka/cse15l-lab-reports/blob/main/Screen%20Shot%202022-04-10%20at%2019.09.19.png?raw=true)
 
 Happy remote connecting!
