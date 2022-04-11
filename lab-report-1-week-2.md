@@ -37,17 +37,14 @@ The whole process should look like this:
 
 2. Here are some commands to try:
 
+```
 pwd # print working directory
-
 cd ~ # change directory
-
 cd .. # go back one directory
-
 cd ../.. # go back two directories
-
 ls -lat # list laterally
-
 ls -a # list all
+```
 
 3. Here's an example of what it might look like:
 ![Screenshot](https://github.com/andrewonozuka/cse15l-lab-reports/blob/main/Screen%20Shot%202022-04-08%20at%2010.11.03.png?raw=true)
@@ -58,6 +55,7 @@ ls -a # list all
 
 2. For this example, I'm using WhereAmI.java, which I have copied below:
 
+```
 class WhereAmI {
   public static void main(String[] args) {
     System.out.println(System.getProperty("os.name"));
@@ -66,7 +64,22 @@ class WhereAmI {
     System.out.println(System.getProperty("user.dir"));
   }
 }
+```
 
+3. Try compiling and running the code on your client. You should see your OS, username, current directory, etc.
+
+4. Then type in the command:
+```
+scp WhereAmI.java cs15lsp22xxx@ieng6.ucsd.edu:~/
+```
+You will then be prompted to enter your password.
+
+5. Once that is complete, you will be able to see that the file has moved over, using "ls". You should see that "WhereAmI.java" is now in the remote server.
+
+6. If you compile and run it on ssh, you will now see a different result.
+
+Below is my example from lab 1:
+![Screenshot](https://github.com/andrewonozuka/cse15l-lab-reports/blob/main/lORFbWcDjh7nzoRVQXzyWzspJ0KI1RICFO6b55nKb7HCIqC-3_zEGt_9mmPj2OaHdKoZcjn0P_Jv3bjAboM9fVAmkBLMIt3ZtUreiy591fH_mJwq3qGdAJEsYBd7.png?raw=true)
 
 ## Setting an SSH Key
 
