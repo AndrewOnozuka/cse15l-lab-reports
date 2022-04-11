@@ -135,3 +135,7 @@ cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI
 ```
 - You can also use the up arrow key to scroll back through the commands you have previously typed before, similar to a calculator! This is helpful if you accidentally made a typo at the end or just want to call a command again.
 
+Here's my example:
+![Screenshot](https://github.com/andrewonozuka/cse15l-lab-reports/blob/main/Screen%20Shot%202022-04-10%20at%2019.09.19.png?raw=true)
+
+Happy remote connecting!
