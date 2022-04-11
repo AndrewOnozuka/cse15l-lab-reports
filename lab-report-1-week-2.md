@@ -56,6 +56,7 @@ ls -a # list all
 
 1. Now that you've been introduced to some basic commands, let's try to move files!
 
+2. For this example, I'm using WhereAmI.java, which I have copied below:
 
 
 ## Setting an SSH Key
