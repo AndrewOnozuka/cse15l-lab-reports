@@ -20,7 +20,9 @@
 
 3. Then type:
 
-"ssh cs15lsp22xxx@ieng6.ucsd.edu"
+```
+ssh cs15lsp22xxx@ieng6.ucsd.edu
+```
 
 *make sure you replace the xxx with your unique three letter sequence! also make sure the quarter info is updated, it says sp22 as it is spring 2022 when this lab report is being written*
 
@@ -86,7 +88,50 @@ Below is my example from lab 1:
 
 1. So far, we have had to re-type our password everytime to access ssh. Since this is inefficient and redundant over time, there is a way to get around this.
 
-2. 
+2. In your terminal, type in:
+
+```
+ssh-keygen
+```
+
+3. You will then be asked to "Enter file in which to save the key"
+
+```
+(/Users/<user-name>/.ssh/id_rsa): /Users/<user-name>/.ssh/id_rsa
+```
+
+4. When asked to "Enter passphrase", make sure to enter NOTHING and simply return twice. You will then see your key's randomart image.
+
+5. Afterwards, go back to ssh and enter your password. Using "mkdir" (make directory), type:
+
+```
+mkdir .ssh
+```
+
+6. Logout, then type:
+
+```
+scp /Users/<user-name>/.ssh/id_rsa.pub cs15lsp22zz@ieng6.ucsd.edu:~/.ssh/authorized_keys
+```
+
+You have successfully set up an ssh key! It should look similar to this:
+
+![Screenshot](https://github.com/andrewonozuka/cse15l-lab-reports/blob/main/ZhAV1puUSET361DhEdnOSFe2vjwYE5Elj56vy96iMwLvTcMsIkWuFSS5e1bT7yzrP2ZhP8xVvN7zNZg8vvtTYrh4ucMeQExmmGY_-duAFvBq1pOTNSQr4DG7mN1Q.png?raw=true)
 
 ## Optimizing Remote Running
+
+Finally, let's go over some useful things to know to make remote running easier!
+
+- Instead of ssh-ing and then running a command, you can type it directly after the ssh command in the terminal:
+
+```
+ssh cs15lsp22xxx@ieng6.ucsd.edu "ls"
+```
+
+- You can also use semicolons and call multiple commands:
+
+```
+cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI
+```
+- You can also use the up arrow key to scroll back through the commands you have previously typed before, similar to a calculator! This is helpful if you accidentally made a typo at the end or just want to call a command again.
 
