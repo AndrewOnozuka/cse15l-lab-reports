@@ -65,7 +65,21 @@ Without the break statement, the while loop runs forever. This means the program
 
 ## Code Change #2
 
-![Screenshot](https://github.com/andrewonozuka/cse15l-lab-reports/blob/main/Screen%20Shot%202022-04-24%20at%2005.51.49.png?raw=true)
+Screenshot of code change diff from Github:
+
+![Screenshot](https://github.com/andrewonozuka/cse15l-lab-reports/blob/main/Screen%20Shot%202022-04-24%20at%2005.59.36.png?raw=true)
+
+[Failure Inducing Input #2](https://github.com/andrewonozuka/markdown-parser/edit/main/test-file2.md)
+
+Failing Output #2:
+
+![Failing Output #2]()
+
+Passing Output #1:
+
+![Passing Output #2]()
+
+Without the break statement, the while loop runs forever. This means the program never stops and we never get an output. By checking if any of the parameters are -1, we know to break the loop and output the correct list of links.
 
 Link to the test file for a failure-inducing input that prompted you to make that change
 
