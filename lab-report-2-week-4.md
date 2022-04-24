@@ -51,14 +51,15 @@ Screenshot of code change diff from Github:
 
 [Failure Inducing Input #1](https://github.com/andrewonozuka/markdown-parser/edit/main/test-file.md)
 
+Failing Output #1:
 
-Show the symptom of that failure-inducing input by showing the output of running the file at the command line for the version where it was failing (this should also be in the commit message history)
+![Failing Output #1](https://github.com/andrewonozuka/cse15l-lab-reports/blob/main/Screen%20Shot%202022-04-24%20at%2005.44.48.png?raw=true)
 
-[Failing Output #1](https://github.com/andrewonozuka/markdown-parser/edit/main/test-file.md)
+Passing Output #1:
 
-[Passing Output #1](https://github.com/andrewonozuka/markdown-parser/edit/main/test-file.md)
+![Passing Output #1](https://github.com/andrewonozuka/cse15l-lab-reports/blob/main/Screen%20Shot%202022-04-24%20at%2005.45.34.png?raw=true)
 
-Write 2-3 sentences describing the relationship between the bug, the symptom, and the failure-inducing input.
+Without the break statement, the while loop runs forever. This means the program never stops and we never get an output. By checking if any of the parameters are -1, we know to break the loop and output the correct list of links.
 
 ## Code Change #2
 
