@@ -1,41 +1,65 @@
 
 [Return to Index Page](https://andrewonozuka.github.io/cse15l-lab-reports/index)
 
-# Lab Report 1 | Week 2 | Remote Access Tutorial
+# Lab Report 2 | Week 4 | Fixing Markdown Parser
 
-## Installing VScode
+## Background
 
-1 |  Let's first begin by installing VScode! VScode is short for Visual Studio Code, and it a source-code editor made my Microsoft.
-
-2 | [Use this link to download VScode!](https://code.visualstudio.com/download) Make sure you download the right version for your operating system. (macOS, Windows, Linux)
-
-![Screenshot](https://github.com/andrewonozuka/cse15l-lab-reports/blob/main/Screen%20Shot%202022-04-08%20at%2009.22.27.png?raw=true)
-
-3 | After you have installed VScode, you're ready to go!
-
-## Remotely Connecting
-
-1 | You will encounter course-specific accounts in many of the CSE courses at UCSD. You may also see similar individualized accounts at other institutions or future jobs, so getting used to these will help you in the future!
-
-2 | Open a new terminal in VScode by going to the top of your screen and selecting "Terminal" -> "New Terminal".
-
-3 | Then type:
+In the lab for week 3, we took a look at MarkdownParse.java, which looks something like this:
 
 ```
-ssh cs15lsp22xxx@ieng6.ucsd.edu
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.util.ArrayList;
+
+public class MarkdownParse {
+
+    public static ArrayList<String> getLinks(String markdown) {
+        ArrayList<String> toReturn = new ArrayList<>();
+        // find the next [, then find the ], then find the (, then read link upto next )
+        int currentIndex = 0;
+        while(currentIndex < markdown.length()) {
+            int openBracket = markdown.indexOf("[", currentIndex);
+            int closeBracket = markdown.indexOf("]", openBracket);
+            int openParen = markdown.indexOf("(", closeBracket);
+            int closeParen = markdown.indexOf(")", openParen);
+            toReturn.add(markdown.substring(openParen + 1, closeParen));
+            currentIndex = closeParen + 1;
+        }
+        return toReturn;
+    }
+
+    public static void main(String[] args) throws IOException {
+        Path fileName = Path.of(args[0]);
+        String content = Files.readString(fileName);
+        ArrayList<String> links = getLinks(content);
+	    System.out.println(links);
+    }
+}
 ```
 
-*make sure you replace the xxx with your unique three letter sequence! also make sure the quarter info is updated, it says sp22 as it is spring 2022 when this lab report is being written*
+The program is intended to find the links given in a certain "---.md" file and return an ArrayList of links.
 
-4 | The first time you log in, it will ask if you want to continue connecting. Type: "yes", and then press enter.
+Through labs 3 and 4, our goal is to focus on **incremental development**, which our programming process is driven by tests. This allows us to catch mistakes early and often, therefore avoiding situations where you have a large program with many errors that you do not know the source of.
 
-5 | You will then be prompted for a password. Login using your password that you use for TritonLink!
+## Code Change #1
 
-The whole process should look like this:
+
+Show a screenshot of the code change diff from Github (a page like this)
+
+Link to the test file for a failure-inducing input that prompted you to make that change
+
+
+Show the symptom of that failure-inducing input by showing the output of running the file at the command line for the version where it was failing (this should also be in the commit message history)
+
+
+Write 2-3 sentences describing the relationship between the bug, the symptom, and the failure-inducing input.
+
 
 ![Screenshot](https://github.com/andrewonozuka/cse15l-lab-reports/blob/main/Screen%20Shot%202022-04-08%20at%2009.46.08.png?raw=true)
 
-## Trying Some Commands
+## Code Change #2
 
 1 | Now that you've been able to securely connect to the remote client, let's try running some commands!
 
@@ -54,7 +78,7 @@ ls -a # list all
 
 ![Screenshot](https://github.com/andrewonozuka/cse15l-lab-reports/blob/main/Screen%20Shot%202022-04-08%20at%2010.11.03.png?raw=true)
 
-## Moving Files with scp
+## Code Change #3
 
 1 | Now that you've been introduced to some basic commands, let's try to move files!
 
@@ -86,7 +110,7 @@ You will then be prompted to enter your password.
 
 Below is my example from lab 1:
 
-![Screenshot](https://github.com/andrewonozuka/cse15l-lab-reports/blob/main/lORFbWcDjh7nzoRVQXzyWzspJ0KI1RICFO6b55nKb7HCIqC-3_zEGt_9mmPj2OaHdKoZcjn0P_Jv3bjAboM9fVAmkBLMIt3ZtUreiy591fH_mJwq3qGdAJEsYBd7.png?raw=true)
+![Screenshot](https://github.com/andrewonozuka/markdown-parser/blob/main/Screen%20Shot%202022-04-24%20at%2005.22.21.png?raw=true)
 
 ## Setting an SSH Key
 
