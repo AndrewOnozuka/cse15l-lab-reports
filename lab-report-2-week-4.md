@@ -45,9 +45,11 @@ Through labs 3 and 4, our goal is to focus on **incremental development**, which
 
 ## Code Change #1
 
+Screenshot of code change diff from Github:
+
 ![Screenshot](https://github.com/andrewonozuka/markdown-parser/blob/main/Screen%20Shot%202022-04-24%20at%2005.22.21.png?raw=true)
 
-Link to the test file for a failure-inducing input that prompted you to make that change
+[Failure Inducing Input #1](https://github.com/andrewonozuka/markdown-parser/blob/main/Screen%20Shot%202022-04-24%20at%2005.22.21.png?raw=true)
 
 
 Show the symptom of that failure-inducing input by showing the output of running the file at the command line for the version where it was failing (this should also be in the commit message history)
