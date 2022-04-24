@@ -73,30 +73,37 @@ Screenshot of code change diff from Github:
 
 Failing Output #2:
 
-![Failing Output #2]()
+![Failing Output #2](https://github.com/andrewonozuka/cse15l-lab-reports/blob/main/Screen%20Shot%202022-04-24%20at%2006.02.39.png?raw=true)
 
-Passing Output #1:
+Passing Output #2:
 
-![Passing Output #2]()
+![Passing Output #2](https://github.com/andrewonozuka/cse15l-lab-reports/blob/main/Screen%20Shot%202022-04-24%20at%2006.02.27.png?raw=true)
 
-Without the break statement, the while loop runs forever. This means the program never stops and we never get an output. By checking if any of the parameters are -1, we know to break the loop and output the correct list of links.
+When attempting to fix the bugs, I moved the original
 
-Link to the test file for a failure-inducing input that prompted you to make that change
+```
+toReturn.add(markdown.substring(openParen + 1, closeParen));
+currentIndex = closeParen + 1;
+```
 
-
-Show the symptom of that failure-inducing input by showing the output of running the file at the command line for the version where it was failing (this should also be in the commit message history)
-
-
-Write 2-3 sentences describing the relationship between the bug, the symptom, and the failure-inducing input.
+into an if / else if / else statement, but did not have the two lines of code outside. This was causing another infinite loop. Once I added it back in, it was able to work.
 
 ## Code Change #3
 
+Screenshot of code change diff from Github:
+
 ![Screenshot](https://github.com/andrewonozuka/cse15l-lab-reports/blob/main/Screen%20Shot%202022-04-24%20at%2005.51.49.png?raw=true)
 
-Link to the test file for a failure-inducing input that prompted you to make that change
+[Failure Inducing Input #3](https://github.com/andrewonozuka/markdown-parser/edit/main/test-file3.md)
 
+Failing Output #3:
 
-Show the symptom of that failure-inducing input by showing the output of running the file at the command line for the version where it was failing (this should also be in the commit message history)
+![Failing Output #3]()
 
+Passing Output #3:
+
+![Passing Output #3]()
 
 Write 2-3 sentences describing the relationship between the bug, the symptom, and the failure-inducing input.
+
+We are able to ignore faulty lines of input that are missing parenthesis. 
