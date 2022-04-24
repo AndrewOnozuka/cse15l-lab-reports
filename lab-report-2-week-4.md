@@ -1,6 +1,8 @@
 
 [Return to Index Page](https://andrewonozuka.github.io/cse15l-lab-reports/index)
 
+[Link to Lab Report 2 Writeup](https://docs.google.com/document/d/14SJ2qRuxBCfOXxI1-dPo3KTOvd4bmM0K25GyVtfXLrU/edit)
+
 # Lab Report 2 | Week 4 | Fixing Markdown Parser
 
 ## Background
@@ -63,9 +65,7 @@ Without the break statement, the while loop runs forever. This means the program
 
 ## Code Change #2
 
-Show a screenshot of the code change diff from Github (a page like this)
-
-![Screenshot](https://github.com/andrewonozuka/markdown-parser/blob/main/Screen%20Shot%202022-04-24%20at%2005.22.21.png?raw=true)
+![Screenshot](https://github.com/andrewonozuka/cse15l-lab-reports/blob/main/Screen%20Shot%202022-04-24%20at%2005.51.49.png?raw=true)
 
 Link to the test file for a failure-inducing input that prompted you to make that change
 
@@ -77,9 +77,7 @@ Write 2-3 sentences describing the relationship between the bug, the symptom, an
 
 ## Code Change #3
 
-Show a screenshot of the code change diff from Github (a page like this)
-
-![Screenshot](https://github.com/andrewonozuka/markdown-parser/blob/main/Screen%20Shot%202022-04-24%20at%2005.22.21.png?raw=true)
+![Screenshot](https://github.com/andrewonozuka/cse15l-lab-reports/blob/main/Screen%20Shot%202022-04-24%20at%2005.51.49.png?raw=true)
 
 Link to the test file for a failure-inducing input that prompted you to make that change
 
@@ -88,5 +86,3 @@ Show the symptom of that failure-inducing input by showing the output of running
 
 
 Write 2-3 sentences describing the relationship between the bug, the symptom, and the failure-inducing input.
-
-## Review
