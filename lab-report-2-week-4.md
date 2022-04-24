@@ -98,12 +98,10 @@ Screenshot of code change diff from Github:
 
 Failing Output #3:
 
-![Failing Output #3]()
+![Failing Output #3](https://github.com/andrewonozuka/cse15l-lab-reports/blob/main/Screen%20Shot%202022-04-24%20at%2006.09.04.png?raw=true)
 
 Passing Output #3:
 
-![Passing Output #3]()
+![Passing Output #3](https://github.com/andrewonozuka/cse15l-lab-reports/blob/main/Screen%20Shot%202022-04-24%20at%2006.09.13.png?raw=true)
 
-Write 2-3 sentences describing the relationship between the bug, the symptom, and the failure-inducing input.
-
-We are able to ignore faulty lines of input that are missing parenthesis. 
+The bug was with input lines that were missing parenthesis. After the code change, we are able to ignore the faulty lines of input and get only the valid links. 
