@@ -49,11 +49,14 @@ Screenshot of code change diff from Github:
 
 ![Screenshot](https://github.com/andrewonozuka/markdown-parser/blob/main/Screen%20Shot%202022-04-24%20at%2005.22.21.png?raw=true)
 
-[Failure Inducing Input #1](https://github.com/andrewonozuka/markdown-parser/blob/main/Screen%20Shot%202022-04-24%20at%2005.22.21.png?raw=true)
+[Failure Inducing Input #1](https://github.com/andrewonozuka/markdown-parser/edit/main/test-file.md)
 
 
 Show the symptom of that failure-inducing input by showing the output of running the file at the command line for the version where it was failing (this should also be in the commit message history)
 
+[Failing Output #1](https://github.com/andrewonozuka/markdown-parser/edit/main/test-file.md)
+
+[Passing Output #1](https://github.com/andrewonozuka/markdown-parser/edit/main/test-file.md)
 
 Write 2-3 sentences describing the relationship between the bug, the symptom, and the failure-inducing input.
 
