@@ -7,7 +7,7 @@
 
 ## Background
 
-In the lab for week 3, we took a look at MarkdownParse.java, which looks something like this:
+In the lab for week 3, we took a look at MarkdownParse.java, which initially looks something like this:
 
 ```
 import java.io.IOException;
@@ -51,11 +51,13 @@ Screenshot of code change diff from Github:
 
 ![Screenshot](https://github.com/andrewonozuka/markdown-parser/blob/main/Screen%20Shot%202022-04-24%20at%2005.22.21.png?raw=true)
 
-[Failure Inducing Input #1](https://github.com/andrewonozuka/markdown-parser/edit/main/test-file.md)
+[Failure Inducing Input: test-file3.md](https://github.com/andrewonozuka/markdown-parser/edit/main/test-file3.md)
+
+The initial code does not take into account the scenario when a test file is missing parenthesis or brackets. Because the code looks for the characters in a certain order, it causes problems when they are not found or in a different order. We can see this below:
 
 Failing Output #1:
 
-![Failing Output #1](https://github.com/andrewonozuka/cse15l-lab-reports/blob/main/Screen%20Shot%202022-04-24%20at%2005.44.48.png?raw=true)
+![Failing Output #1]()
 
 Passing Output #1:
 
