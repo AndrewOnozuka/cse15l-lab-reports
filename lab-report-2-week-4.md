@@ -49,11 +49,29 @@ Through labs 3 and 4, our goal is to focus on **incremental development**, which
 
 Screenshot of code change diff from Github:
 
+![Screenshot](https://github.com/andrewonozuka/cse15l-lab-reports/blob/main/Screenshots/Screen%20Shot%202022-05-01%20at%2005.13.07.png?raw=true)
+
+[Failure Inducing Input: test-file.md](https://github.com/andrewonozuka/markdown-parser/edit/main/test-file.md)
+
+The initial code does not take into account the scenario when a test file is missing brackets. Because the code looks for the characters in a certain order, problems appear when certain characters are not found or are in a different order than expected. Below we can see that the while loop becomes an infinite loop as a result.
+
+Failing Output #1:
+
+![Failing Output #1](https://github.com/andrewonozuka/cse15l-lab-reports/blob/main/Screenshots/Screen%20Shot%202022-05-01%20at%2005.24.24.png?raw=true)
+
+Once we added the break statement (we used the built-in -1 feature to check if the next expected character was not found), we were able to successfully return an output instead of running into an infinite loop.
+
+Passing Output #1:
+
+![Passing Output #1](https://github.com/andrewonozuka/cse15l-lab-reports/blob/main/Screenshots/Screen%20Shot%202022-05-01%20at%2005.24.31.png?raw=true)
+
+## Code Change #2
+
+Screenshot of code change diff from Github:
+
 ![Screenshot]()
 
-[Failure Inducing Input: test-file.md](https://github.com/andrewonozuka/markdown-parser/edit/main/test-file2.md)
-
-The initial code does not take into account the scenario when a test file is missing parenthesis or brackets. Because the code looks for the characters in a certain order, it causes problems when they are not found or in a different order. We can see this below:
+[Failure Inducing Input: test-file2.md]()
 
 Failing Output #2:
 
@@ -62,33 +80,6 @@ Failing Output #2:
 Passing Output #2:
 
 ![Passing Output #2]()
-
-When attempting to fix the bugs, I moved the original
-
-```
-toReturn.add(markdown.substring(openParen + 1, closeParen));
-currentIndex = closeParen + 1;
-```
-
-into an if / else if / else statement, but did not have the two lines of code outside. This was causing another infinite loop. Once I added it back in, it was able to work.
-
-## Code Change #3
-
-Screenshot of code change diff from Github:
-
-![Screenshot](https://github.com/andrewonozuka/cse15l-lab-reports/blob/main/Screen%20Shot%202022-04-24%20at%2005.51.49.png?raw=true)
-
-[Failure Inducing Input #3](https://github.com/andrewonozuka/markdown-parser/edit/main/test-file3.md)
-
-Failing Output #3:
-
-![Failing Output #3](https://github.com/andrewonozuka/cse15l-lab-reports/blob/main/Screen%20Shot%202022-04-24%20at%2006.09.04.png?raw=true)
-
-Passing Output #3:
-
-![Passing Output #3](https://github.com/andrewonozuka/cse15l-lab-reports/blob/main/Screen%20Shot%202022-04-24%20at%2006.09.13.png?raw=true)
-
-The bug was with input lines that were missing parenthesis. After the code change, we are able to ignore the faulty lines of input and get only the valid links. 
 
 ## Code Change #3
 
