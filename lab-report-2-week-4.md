@@ -45,41 +45,21 @@ The program is intended to find the links given in a certain "---.md" file and r
 
 Through labs 3 and 4, our goal is to focus on **incremental development**, which our programming process is driven by tests. This allows us to catch mistakes early and often, therefore avoiding situations where you have a large program with many errors that you do not know the source of.
 
-## Code Change #1
-
-Screenshot of code change diff from Github:
-
-![Screenshot](https://github.com/andrewonozuka/markdown-parser/blob/main/Screen%20Shot%202022-04-24%20at%2005.22.21.png?raw=true)
-
-[Failure Inducing Input: test-file3.md](https://github.com/andrewonozuka/markdown-parser/edit/main/test-file3.md)
-
-The initial code does not take into account the scenario when a test file is missing parenthesis or brackets. Because the code looks for the characters in a certain order, it causes problems when they are not found or in a different order. We can see this below:
-
-Failing Output #1:
-
-![Failing Output #1]()
-
-Passing Output #1:
-
-![Passing Output #1](https://github.com/andrewonozuka/cse15l-lab-reports/blob/main/Screen%20Shot%202022-04-24%20at%2005.45.34.png?raw=true)
-
-Without the break statement, the while loop runs forever. This means the program never stops and we never get an output. By checking if any of the parameters are -1, we know to break the loop and output the correct list of links.
-
 ## Code Change #2
 
 Screenshot of code change diff from Github:
 
-![Screenshot](https://github.com/andrewonozuka/cse15l-lab-reports/blob/main/Screen%20Shot%202022-04-24%20at%2005.59.36.png?raw=true)
+![Screenshot]()
 
 [Failure Inducing Input #2](https://github.com/andrewonozuka/markdown-parser/edit/main/test-file2.md)
 
 Failing Output #2:
 
-![Failing Output #2](https://github.com/andrewonozuka/cse15l-lab-reports/blob/main/Screen%20Shot%202022-04-24%20at%2006.02.39.png?raw=true)
+![Failing Output #2]()
 
 Passing Output #2:
 
-![Passing Output #2](https://github.com/andrewonozuka/cse15l-lab-reports/blob/main/Screen%20Shot%202022-04-24%20at%2006.02.27.png?raw=true)
+![Passing Output #2]()
 
 When attempting to fix the bugs, I moved the original
 
@@ -105,5 +85,29 @@ Failing Output #3:
 Passing Output #3:
 
 ![Passing Output #3](https://github.com/andrewonozuka/cse15l-lab-reports/blob/main/Screen%20Shot%202022-04-24%20at%2006.09.13.png?raw=true)
+
+The bug was with input lines that were missing parenthesis. After the code change, we are able to ignore the faulty lines of input and get only the valid links. 
+
+## Code Change #3
+
+Screenshot of code change diff from Github:
+
+![Screenshot]()
+
+[Failure Inducing Input: test-file3.md](https://github.com/andrewonozuka/markdown-parser/edit/main/test-file3.md)
+
+The initial code does not take into account the scenario when a test file is missing parenthesis or brackets. Because the code looks for the characters in a certain order, it causes problems when they are not found or in a different order. We can see this below:
+
+Failing Output #1:
+
+![Failing Output #1](https://github.com/andrewonozuka/cse15l-lab-reports/blob/main/Screenshots/Screen%20Shot%202022-05-01%20at%2005.07.20.png?raw=true)
+
+Passing Output #1:
+
+![Passing Output #1](https://github.com/andrewonozuka/cse15l-lab-reports/blob/main/Screenshots/Screen%20Shot%202022-05-01%20at%2005.07.30.png?raw=true)
+
+
+
+Without the break statement, the while loop runs forever. This means the program never stops and we never get an output. By checking if any of the parameters are -1, we know to break the loop and output the correct list of links.
 
 The bug was with input lines that were missing parenthesis. After the code change, we are able to ignore the faulty lines of input and get only the valid links. 
