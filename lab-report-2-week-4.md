@@ -69,9 +69,11 @@ Passing Output #1:
 
 Screenshot of code change diff from Github:
 
-![Screenshot]()
+![Screenshot](https://github.com/andrewonozuka/cse15l-lab-reports/blob/main/Screenshots/Screen%20Shot%202022-05-01%20at%2005.12.43.png?raw=true)
 
-[Failure Inducing Input: test-file2.md]()
+[Failure Inducing Input: test-file4.md](https://github.com/andrewonozuka/markdown-parser/edit/main/test-file4.md)
+
+Another bug we encountered was how to deal with links in the form of screenshots. Because images are in the format ! + [image name] + (image address), the program would encounter an error and end up stuck in an infinite loop.
 
 Failing Output #2:
 
