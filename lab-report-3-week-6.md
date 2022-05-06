@@ -50,11 +50,16 @@ ssh lr3ex           # lab report 3 example
 
 ![Screenshot](https://github.com/andrewonozuka/cse15l-lab-reports/blob/main/screenshots-lr3/Screen%20Shot%202022-05-06%20at%2012.21.30.png?raw=true)
 
-- Show an scp command copying a file to your account using just the alias you chose.
+This updates shortened alias is helpful with other commands as well. Here is an example of using an scp command to move a file:
+
+![Screenshot](https://github.com/andrewonozuka/cse15l-lab-reports/blob/main/screenshots-lr3/Screen%20Shot%202022-05-06%20at%2012.32.57.png?raw=true)
 
 ## Setup Github Access from ieng6
 
-- Show where the public key you made is stored on Github and in your user account (screenshot).
+Your public key should be stored as a "id_rsa.pub" file as seen below:
+
+![Screenshot]()
+
 - Show where the private key you made is stored on your user account (but not its contents) as a screenshot.
 - Show running git commands to commit and push a change to Github while logged into your ieng6 account.
 - Show a link for the resulting commit.
