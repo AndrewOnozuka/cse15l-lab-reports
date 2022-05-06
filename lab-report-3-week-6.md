@@ -34,9 +34,11 @@ vim config          # to edit config
 
 After typing the last vim command, your screen should turn into something like this:
 
-![Screenshot]()
+![Screenshot](https://github.com/andrewonozuka/cse15l-lab-reports/blob/main/screenshots-lr3/Screen%20Shot%202022-05-06%20at%2012.13.02.png?raw=true)
 
-To edit the file, press the "i" key (insert) and then make your changes. Once you are done, press the "esc" key (escape) and type ":wq" then press "enter". This will bring you back to the terminal.
+To edit the file, press the "i" key (insert) and then make your changes. Once you are done, press the "esc" key (escape) and type ":wq" then press "enter". This will bring you back to the terminal. After these changes, you should be able to directly log on with a shorter ssh command:
+
+![Screenshot](https://github.com/andrewonozuka/cse15l-lab-reports/blob/main/screenshots-lr3/Screen%20Shot%202022-05-06%20at%2012.13.02.png?raw=true)
 
 - Show the ssh command logging you into your account using just the alias you chose.
 - Show an scp command copying a file to your account using just the alias you chose.
