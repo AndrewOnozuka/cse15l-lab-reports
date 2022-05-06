@@ -76,7 +76,7 @@ git push
 
 Here's what it looks like on Github:
 
-![Screenshot]()
+![Screenshot](https://github.com/andrewonozuka/cse15l-lab-reports/blob/main/screenshots-lr3/Screen%20Shot%202022-05-06%20at%2013.12.58.png?raw=true)
 
 [Resulting Commit](https://github.com/andrewonozuka/cse15l-lab-reports/commit/cd253a79af4ffcb265e59b3922009ad126df2f4d)
 
