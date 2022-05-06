@@ -68,6 +68,12 @@ You can also use git commands to add and push changes to Github through the term
 
 ![Screenshot]()
 
+```
+git add lab-report-3-week-6.md
+git commit lab-report-3-week-6.md
+git push
+```
+
 - Show running git commands to commit and push a change to Github while logged into your ieng6 account.
 - Show a link for the resulting commit.
 
