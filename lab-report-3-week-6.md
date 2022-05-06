@@ -64,9 +64,7 @@ Your private key should be stored as a "id_rsa" file as seen below:
 
 ![Screenshot](https://github.com/andrewonozuka/cse15l-lab-reports/blob/main/screenshots-lr3/Screen%20Shot%202022-05-06%20at%2012.38.08.png?raw=true)
 
-You can also use git commands to add and push changes to Github through the terminal:
-
-![Screenshot]()
+You can also use git commands to add, commit, and push changes to Github through the terminal using these commands:
 
 ```
 git add lab-report-3-week-6.md
@@ -74,26 +72,13 @@ git commit lab-report-3-week-6.md
 git push
 ```
 
-- Show running git commands to commit and push a change to Github while logged into your ieng6 account.
-- Show a link for the resulting commit.
+![Screenshot](https://github.com/andrewonozuka/cse15l-lab-reports/blob/main/screenshots-lr3/Screen%20Shot%202022-05-06%20at%2013.11.09.png?raw=true)
 
-Screenshot of code change diff from Github:
+Here's what it looks like on Github:
 
-![Screenshot](https://github.com/andrewonozuka/cse15l-lab-reports/blob/main/Screenshots/Screen%20Shot%202022-05-01%20at%2005.12.43.png?raw=true)
+![Screenshot]()
 
-[Failure Inducing Input: test-file4.md](https://github.com/andrewonozuka/markdown-parser/edit/main/test-file4.md)
-
-Another bug we encountered was how to deal with links in the form of screenshots. Because images are in the format ! + [image name] + (image address), the program would encounter an error and end up stuck in an infinite loop.
-
-Failing Output #2:
-
-![Failing Output #2](https://github.com/andrewonozuka/cse15l-lab-reports/blob/main/Screenshots/Screen%20Shot%202022-05-01%20at%2005.36.55.png?raw=true)
-
-After our code change, we can now successfully process input files with image links also. Since we are looking to return URL links only, the lines with links in an image format are simply ignored and only the remaining valid links are returned.
-
-Passing Output #2:
-
-![Passing Output #2](https://github.com/andrewonozuka/cse15l-lab-reports/blob/main/Screenshots/Screen%20Shot%202022-05-01%20at%2005.37.06.png?raw=true)
+[Resulting Commit](https://github.com/andrewonozuka/cse15l-lab-reports/commit/cd253a79af4ffcb265e59b3922009ad126df2f4d)
 
 ## Copy whole directories with scp -r
 
