@@ -89,4 +89,4 @@ Compiling and running the tests in ieng6:
 
 Here's what it looks like when we run everything in one line:
 
-![Screenshot](https://github.com/andrewonozuka/cse15l-lab-reports/blob/main/screenshots-lr3/Screen%20Shot%202022-05-06%20at%2013.56.00.png?raw=true)
+![Screenshot](https://github.com/andrewonozuka/cse15l-lab-reports/blob/main/screenshots-lr3/Screen%20Shot%202022-05-06%20at%2014.29.26.png?raw=true)
