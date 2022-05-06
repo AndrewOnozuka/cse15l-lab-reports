@@ -42,9 +42,13 @@ To edit the file, press the "i" key (insert) and then make your changes. Once yo
 
 If we edit the first line of the config file after "Host", we can actually use whatever phrase we want. Below is an example:
 
-![Screenshot]()
+![Screenshot](https://github.com/andrewonozuka/cse15l-lab-reports/blob/main/screenshots-lr3/Screen%20Shot%202022-05-06%20at%2012.21.44.png?raw=true)
 
-![Screenshot]()
+```
+ssh lr3ex           # lab report 3 example
+```
+
+![Screenshot](https://github.com/andrewonozuka/cse15l-lab-reports/blob/main/screenshots-lr3/Screen%20Shot%202022-05-06%20at%2012.21.30.png?raw=true)
 
 - Show the ssh command logging you into your account using just the alias you chose.
 - Show an scp command copying a file to your account using just the alias you chose.
