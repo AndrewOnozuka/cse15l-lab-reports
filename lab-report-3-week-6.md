@@ -83,7 +83,10 @@ scp -r *.java *.md lib/ cs15lsp22abi@ieng6.ucsd.edu:markdown-parse
 
 ![Screenshot](https://github.com/andrewonozuka/cse15l-lab-reports/blob/main/screenshots-lr3/Screen%20Shot%202022-05-06%20at%2014.24.47.png?raw=true)
 
-- Show logging into your ieng6 account after doing this and compiling and running the tests for your repository.
+Compiling and running the tests in ieng6:
 
+![Screenshot](https://github.com/andrewonozuka/cse15l-lab-reports/blob/main/screenshots-lr3/Screen%20Shot%202022-05-06%20at%2013.56.00.png?raw=true)
 
-- Show (like in the last step of the first lab) combining scp, ;, and ssh to copy the whole directory and run the tests in one line.
+Here's what it looks like when we run everything in one line:
+
+![Screenshot](https://github.com/andrewonozuka/cse15l-lab-reports/blob/main/screenshots-lr3/Screen%20Shot%202022-05-06%20at%2013.56.00.png?raw=true)
