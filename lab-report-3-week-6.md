@@ -38,7 +38,13 @@ After typing the last vim command, your screen should turn into something like t
 
 To edit the file, press the "i" key (insert) and then make your changes. Once you are done, press the "esc" key (escape) and type ":wq" then press "enter". This will bring you back to the terminal. After these changes, you should be able to directly log on with a shorter ssh command:
 
-![Screenshot](https://github.com/andrewonozuka/cse15l-lab-reports/blob/main/screenshots-lr3/Screen%20Shot%202022-05-06%20at%2012.13.02.png?raw=true)
+![Screenshot](https://github.com/andrewonozuka/cse15l-lab-reports/blob/main/screenshots-lr3/Screen%20Shot%202022-05-06%20at%2012.18.45.png?raw=true)
+
+If we edit the first line of the config file after "Host", we can actually use whatever phrase we want. Below is an example:
+
+![Screenshot]()
+
+![Screenshot]()
 
 - Show the ssh command logging you into your account using just the alias you chose.
 - Show an scp command copying a file to your account using just the alias you chose.
