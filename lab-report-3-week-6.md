@@ -66,7 +66,7 @@ Your private key should be stored as a "id_rsa" file as seen below:
 
 You can also use git commands to add and push changes to Github through the terminal:
 
-![Screenshot](https://github.com/andrewonozuka/cse15l-lab-reports/blob/main/screenshots-lr3/Screen%20Shot%202022-05-06%20at%2012.38.08.png?raw=true)
+![Screenshot]()
 
 - Show running git commands to commit and push a change to Github while logged into your ieng6 account.
 - Show a link for the resulting commit.
