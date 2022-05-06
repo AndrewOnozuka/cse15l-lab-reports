@@ -21,7 +21,7 @@ In this lab report, we implement all of the group choice options from Lab 5. The
 
 To edit my .ssh/config file, I opened up the built-in terminal (as I am on Mac). 
 
-![Screenshot](https://github.com/andrewonozuka/cse15l-lab-reports/blob/main/Screenshots/Screen%20Shot%202022-05-01%20at%2005.13.07.png?raw=true)
+![Screenshot](https://github.com/andrewonozuka/cse15l-lab-reports/blob/main/screenshots-lr3/Screen%20Shot%202022-05-06%20at%2011.40.14.png?raw=true)
 
 As you can see, I typed:
 
@@ -32,6 +32,11 @@ cat config          # to see the contents of config
 vim config          # to edit config
 ```
 
+After typing the last vim command, your screen should turn into something like this:
+
+![Screenshot]()
+
+To edit the file, press the "i" key (insert) and then make your changes. Once you are done, press the "esc" key (escape) and type ":wq" then press "enter". This will bring you back to the terminal.
 
 - Show the ssh command logging you into your account using just the alias you chose.
 - Show an scp command copying a file to your account using just the alias you chose.
