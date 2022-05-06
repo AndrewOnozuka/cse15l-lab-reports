@@ -7,6 +7,8 @@ I hope you have a great day!
 
 [Lab Report 2 Week 4 Fixing Markdown Parser](https://andrewonozuka.github.io/cse15l-lab-reports/lab-report-2-week-4)
 
+[Lab Report 3 Week 6 ](https://andrewonozuka.github.io/cse15l-lab-reports/lab-report-3-week-6)
+
 ## Relevant Links
 [Index Page](https://andrewonozuka.github.io/cse15l-lab-reports/index)
 
