@@ -19,12 +19,24 @@ In this lab report, we implement all of the group choice options from Lab 5. The
 
 - Show your .ssh/config file, and how you edited it (with VScode, another program, etc)
 
+To edit my .ssh/config file, I opened up the built-in terminal (as I am on Mac). 
+
+![Screenshot](https://github.com/andrewonozuka/cse15l-lab-reports/blob/main/Screenshots/Screen%20Shot%202022-05-01%20at%2005.13.07.png?raw=true)
+
+As you can see, I typed:
+
+```
+cd ~/.ssh           # change directory
+ls -a               # list all
+cat config          # to see the contents of config
+vim config          # to edit config
+```
+
+
 - Show the ssh command logging you into your account using just the alias you chose.
 - Show an scp command copying a file to your account using just the alias you chose.
 
 Screenshot of code change diff from Github:
-
-![Screenshot](https://github.com/andrewonozuka/cse15l-lab-reports/blob/main/Screenshots/Screen%20Shot%202022-05-01%20at%2005.13.07.png?raw=true)
 
 [Failure Inducing Input: test-file.md](https://github.com/andrewonozuka/markdown-parser/edit/main/test-file.md)
 
