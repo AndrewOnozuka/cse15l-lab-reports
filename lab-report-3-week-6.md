@@ -81,7 +81,7 @@ Here's what it looks like when you copy your whole markdown-parse directory into
 scp -r *.java *.md lib/ cs15lsp22abi@ieng6.ucsd.edu:markdown-parse
 ```
 
-![Screenshot]()
+![Screenshot](https://github.com/andrewonozuka/cse15l-lab-reports/blob/main/screenshots-lr3/Screen%20Shot%202022-05-06%20at%2014.24.47.png?raw=true)
 
 - Show logging into your ieng6 account after doing this and compiling and running the tests for your repository.
 
