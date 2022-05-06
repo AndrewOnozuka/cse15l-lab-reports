@@ -50,24 +50,7 @@ ssh lr3ex           # lab report 3 example
 
 ![Screenshot](https://github.com/andrewonozuka/cse15l-lab-reports/blob/main/screenshots-lr3/Screen%20Shot%202022-05-06%20at%2012.21.30.png?raw=true)
 
-- Show the ssh command logging you into your account using just the alias you chose.
 - Show an scp command copying a file to your account using just the alias you chose.
-
-Screenshot of code change diff from Github:
-
-[Failure Inducing Input: test-file.md](https://github.com/andrewonozuka/markdown-parser/edit/main/test-file.md)
-
-The initial code does not take into account the scenario when a test file is missing brackets. Because the code looks for the characters in a certain order, problems appear when certain characters are not found or are in a different order than expected. Below we can see that the while loop becomes an infinite loop as a result.
-
-Failing Output #1:
-
-![Failing Output #1](https://github.com/andrewonozuka/cse15l-lab-reports/blob/main/Screenshots/Screen%20Shot%202022-05-01%20at%2005.24.24.png?raw=true)
-
-Once we added the break statement (we used the built-in -1 feature to check if the next expected character was not found), we were able to successfully return an output instead of running into an infinite loop.
-
-Passing Output #1:
-
-![Passing Output #1](https://github.com/andrewonozuka/cse15l-lab-reports/blob/main/Screenshots/Screen%20Shot%202022-05-01%20at%2005.24.31.png?raw=true)
 
 ## Setup Github Access from ieng6
 
