@@ -77,7 +77,7 @@ Here's what it looks like on Github:
 
 Here's what it looks like when you copy your whole markdown-parse directory into your ieng6 acount:
 
-![Screenshot](https://github.com/andrewonozuka/cse15l-lab-reports/blob/main/screenshots-lr3/Screen%20Shot%202022-05-06%20at%2013.12.58.png?raw=true)
+![Screenshot]()
 
 - Show logging into your ieng6 account after doing this and compiling and running the tests for your repository.
 - Show (like in the last step of the first lab) combining scp, ;, and ssh to copy the whole directory and run the tests in one line.
