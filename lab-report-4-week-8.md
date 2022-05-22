@@ -56,6 +56,20 @@ And there's still some more text after that.
 And then there's more text
 ```
 
+## Expected Outputs
+
+Snippet #1: [url.com, google.com, ucsd.edu]
+Snippet #2: [b.com, example.com]
+Snippet #3: [https://www.twitter.com, https://sites.google.com/eng.ucsd.edu/cse-15l-spring-2022/schedule]
+
+## Turning Snippets into Tests
+
+
+
+Showing the code in MarkdownParseTest.java for how you turned it into a test
+For your implementation, the corresponding output when running the tests; if it passed, say so. If it didn’t pass, show the specific part of the JUnit output that shows the test failure.
+For the implementation you reviewed in Week 7, the corresponding output when running the tests; if it passed, say so. If it didn’t pass, show the specific part of the JUnit output that shows the test failure.
+
 ## Questions
 
 Do you think there is a small (<10 lines) code change that will make your program work for snippet 1 and all related cases that use inline code with backticks? If yes, describe the code change. If not, describe why it would be a more involved change.
