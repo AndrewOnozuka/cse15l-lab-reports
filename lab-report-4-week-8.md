@@ -8,6 +8,10 @@
 
 In this lab report, we compare our implementation of markdown parser with another group. Below are the links to the two repositories and the three snippets that will be relevant in our comparisons.
 
+[Our Implementation](https://github.com/andrewonozuka/markdown-parser)
+
+[Review Implementation](https://github.com/HantianLin/markdown-parser)
+
 *Snippet #1*
 ```
 `[a link`](url.com)
@@ -70,7 +74,7 @@ Snippet #3: [https://www.twitter.com, https://sites.google.com/eng.ucsd.edu/cse-
 
 Did not pass.
 
-![]()
+![](https://github.com/andrewonozuka/cse15l-lab-reports/blob/main/ss-lr4/Screen%20Shot%202022-05-22%20at%2014.52.47.png?raw=true)
 
 ## Review Implementation
 
@@ -78,14 +82,40 @@ Did not pass.
 
 ![](https://github.com/andrewonozuka/cse15l-lab-reports/blob/main/ss-lr4/Screen%20Shot%202022-05-22%20at%2014.47.47.png?raw=true)
 
-
-For the implementation you reviewed in Week 7, the corresponding output when running the tests; if it passed, say so. If it didn’t pass, show the specific part of the JUnit output that shows the test failure.
-
 ## Questions
+
+**Snippet 1**
 
 Do you think there is a small (<10 lines) code change that will make your program work for snippet 1 and all related cases that use inline code with backticks? If yes, describe the code change. If not, describe why it would be a more involved change.
 
+Our Code:
+
+Yes. We can check to see if there are any backticks within the parenthesis to see if the link is invalid or not. This would solve the fact that we were getting the correct outputs except for "`google.com".
+
+Review Code:
+
+Yes. The other group can check to see if there are any backticks within the parenthesis to see if the link is invalid or not. This would solve the fact that we were getting the correct outputs except for "`google.com".
+
+**Snippet 2**
 
 Do you think there is a small (<10 lines) code change that will make your program work for snippet 2 and all related cases that nest parentheses, brackets, and escaped brackets? If yes, describe the code change. If not, describe why it would be a more involved change.
+
+Our Code:
+
+No. While it wouldn't be too difficult to fix the index out of bounds error, it is much harder to see which parenthesis should be used/ignored within the intended parenthesis.
+
+Review Code:
+
+No. It is difficult to determine which parenthesis should be prioritized and which should be ignored with in "(a.com(()))" within 10 lines of code.
+
+**Snippet 3**
+
 Do you think there is a small (<10 lines) code change that will make your program work for snippet 3 and all related cases that have newlines in brackets and parentheses? If yes, describe the code change. If not, describe why it would be a more involved change.
-If your code already works on some/all test cases, include an explanation of what were the code changes that allowed the tests to pass.
+
+Our Code:
+
+Yes. Our code did well in ignoring the majority of the latter chunk, however we still need to make sure that not everything is ignored, since our output was []. We should still get the first two links despite them having line breaks, so it should look like ["https://www.twitter.com","https://sites.google.com/eng.ucsd.edu/cse-15l-spring-2022/schedule"].
+
+Review Code:
+
+No. The code ignores the first link but returns everything else (inluding the unwanted buffer text). It would take longer than 10 lines.
