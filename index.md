@@ -9,6 +9,8 @@ I hope you have a great day!
 
 [Lab Report 3 - Week 6 - Optimizing SSH](https://andrewonozuka.github.io/cse15l-lab-reports/lab-report-3-week-6)
 
+[Lab Report 4 - Week 8 - Testing & Review](https://andrewonozuka.github.io/cse15l-lab-reports/lab-report-4-week-8)
+
 ## Relevant Links
 [Index Page](https://andrewonozuka.github.io/cse15l-lab-reports/index)
 
