@@ -64,9 +64,13 @@ Snippet #3: [https://www.twitter.com, https://sites.google.com/eng.ucsd.edu/cse-
 
 ## Turning Snippets into Tests
 
+![](https://github.com/andrewonozuka/cse15l-lab-reports/blob/main/Screen%20Shot%202022-05-22%20at%2014.44.15.png?raw=true)
+
+## Our Implementation
 
 
-Showing the code in MarkdownParseTest.java for how you turned it into a test
+## Other Implementation
+
 For your implementation, the corresponding output when running the tests; if it passed, say so. If it didn’t pass, show the specific part of the JUnit output that shows the test failure.
 For the implementation you reviewed in Week 7, the corresponding output when running the tests; if it passed, say so. If it didn’t pass, show the specific part of the JUnit output that shows the test failure.
 
