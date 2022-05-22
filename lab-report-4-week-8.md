@@ -68,10 +68,17 @@ Snippet #3: [https://www.twitter.com, https://sites.google.com/eng.ucsd.edu/cse-
 
 ## Our Implementation
 
+Did not pass.
 
-## Other Implementation
+![]()
 
-For your implementation, the corresponding output when running the tests; if it passed, say so. If it didn’t pass, show the specific part of the JUnit output that shows the test failure.
+## Review Implementation
+
+Did not pass.
+
+![](https://github.com/andrewonozuka/cse15l-lab-reports/blob/main/ss-lr4/Screen%20Shot%202022-05-22%20at%2014.47.47.png?raw=true)
+
+
 For the implementation you reviewed in Week 7, the corresponding output when running the tests; if it passed, say so. If it didn’t pass, show the specific part of the JUnit output that shows the test failure.
 
 ## Questions
