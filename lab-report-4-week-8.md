@@ -63,20 +63,22 @@ And then there's more text
 ## Expected Outputs
 
 Snippet #1: [url.com, google.com, ucsd.edu]
+
 Snippet #2: [b.com, example.com]
+
 Snippet #3: [https://www.twitter.com, https://sites.google.com/eng.ucsd.edu/cse-15l-spring-2022/schedule]
 
 ## Turning Snippets into Tests
 
-![](https://github.com/andrewonozuka/cse15l-lab-reports/blob/main/Screen%20Shot%202022-05-22%20at%2014.44.15.png?raw=true)
+![](https://github.com/andrewonozuka/cse15l-lab-reports/blob/main/ss-lr4/Screen%20Shot%202022-05-22%20at%2014.44.15.png?raw=true)
 
-## Our Implementation
+**Our Implementation**
 
 Did not pass.
 
 ![](https://github.com/andrewonozuka/cse15l-lab-reports/blob/main/ss-lr4/Screen%20Shot%202022-05-22%20at%2014.52.47.png?raw=true)
 
-## Review Implementation
+**Review Implementation**
 
 Did not pass.
 
