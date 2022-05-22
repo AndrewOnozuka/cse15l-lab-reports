@@ -6,7 +6,7 @@
 
 ## Background
 
-In this lab report, we compare our implementation of markdown parser with another group. Below are three snippets that will be relevant in our comparisons.
+In this lab report, we compare our implementation of markdown parser with another group. Below are the links to the two repositories and the three snippets that will be relevant in our comparisons.
 
 *Snippet #1*
 ```
@@ -55,3 +55,12 @@ And there's still some more text after that.
 
 And then there's more text
 ```
+
+## Questions
+
+Do you think there is a small (<10 lines) code change that will make your program work for snippet 1 and all related cases that use inline code with backticks? If yes, describe the code change. If not, describe why it would be a more involved change.
+
+
+Do you think there is a small (<10 lines) code change that will make your program work for snippet 2 and all related cases that nest parentheses, brackets, and escaped brackets? If yes, describe the code change. If not, describe why it would be a more involved change.
+Do you think there is a small (<10 lines) code change that will make your program work for snippet 3 and all related cases that have newlines in brackets and parentheses? If yes, describe the code change. If not, describe why it would be a more involved change.
+If your code already works on some/all test cases, include an explanation of what were the code changes that allowed the tests to pass.
