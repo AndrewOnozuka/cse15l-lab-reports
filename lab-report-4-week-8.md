@@ -60,13 +60,19 @@ And there's still some more text after that.
 And then there's more text
 ```
 
-## Expected Outputs
+## Expected Outputs Using VS Code Preview
 
-Snippet #1: [url.com, google.com, ucsd.edu]
+Snippet #1:
 
-Snippet #2: [b.com, example.com]
+![](https://github.com/andrewonozuka/cse15l-lab-reports/blob/main/ss-lr4/Screen%20Shot%202022-05-31%20at%2000.04.58.png?raw=true)
 
-Snippet #3: [https://www.twitter.com, https://sites.google.com/eng.ucsd.edu/cse-15l-spring-2022/schedule]
+Snippet #2:
+
+![](https://github.com/andrewonozuka/cse15l-lab-reports/blob/main/ss-lr4/Screen%20Shot%202022-05-31%20at%2000.05.28.png?raw=true)
+
+Snippet #3: 
+
+![](https://github.com/andrewonozuka/cse15l-lab-reports/blob/main/ss-lr4/Screen%20Shot%202022-05-31%20at%2000.05.40.png?raw=true)
 
 ## Turning Snippets into Tests
 
