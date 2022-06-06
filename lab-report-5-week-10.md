@@ -44,7 +44,7 @@ This is a correct implementation, as we get both outputs at [].
 
 markdown-parser:
 
-This is not a correct implementation, as we do not get [].
+This is not a correct implementation, as we do not get []. In order to fix this, we would need to be able to check if the section inside the parenthesis has a valid url (for example check if there is a common prefix or suffix).
 
 ![](https://github.com/andrewonozuka/cse15l-lab-reports/blob/main/ss-lr5/Screen%20Shot%202022-06-05%20at%2023.50.46.png?raw=true)
 
