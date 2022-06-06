@@ -11,6 +11,8 @@ I hope you have a great day!
 
 [Lab Report 4 - Week 8 - Testing & Review](https://andrewonozuka.github.io/cse15l-lab-reports/lab-report-4-week-8)
 
+[Lab Report 5 - Week 10 - Running Many Tests](https://andrewonozuka.github.io/cse15l-lab-reports/lab-report-5-week-10)
+
 ## Relevant Links
 [Index Page](https://andrewonozuka.github.io/cse15l-lab-reports/index)
 
