@@ -14,17 +14,35 @@ vimdiff my-markdown-parser/results.txt markdown-parser/results.txt
 
 As we can see in the picture below, we can see which tests produced different results.
 
-![]()
+![](https://github.com/andrewonozuka/cse15l-lab-reports/blob/main/ss-lr5/Screen%20Shot%202022-06-05%20at%2023.33.37.png?raw=true)
 
 I decided to take a look at files 201 and 342.
 
 ## Link to Test Files
 
-Provide a link to the test-file with different-results (in the provided repository or your repository , either is fine)
+[Test 201](https://github.com/nidhidhamnani/markdown-parser/blob/main/test-files/201.md)
 
-For each test:
-Describe which implementation is correct, or neither if both give the wrong output
-Indicate both actual outputs (provide screenshots) and also what the expected output is (list the links that are expected in the output).
+[Test 342](https://github.com/nidhidhamnani/markdown-parser/blob/main/test-files/342.md)
 
+## Determining Correct Output
+
+my-markdown-parser:
+
+Test 201:
+There are no valid links. The correct output should simply be [].
+
+Test 342:
+
+There are no valid links. The correct output should simply be [].
+
+markdown-parser:
+
+Test 201:
+
+There are no valid links. The correct output should simply be [].
+
+Test 342:
+
+There are no valid links. The correct output should simply be [].
 
 
