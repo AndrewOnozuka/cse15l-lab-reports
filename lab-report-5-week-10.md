@@ -18,19 +18,13 @@ As we can see in the picture below, we can see which tests produced different re
 
 I decided to take a look at files 201 and 342.
 
-## Link to Test Files
+## Link to Test Files & Determining Correct Output
 
 [Test 201](https://github.com/nidhidhamnani/markdown-parser/blob/main/test-files/201.md)
 
-[Test 342](https://github.com/nidhidhamnani/markdown-parser/blob/main/test-files/342.md)
-
-## Determining Correct Output
-
-Test 201:
-
 There are no valid links. The correct output should simply be [].
 
-Test 342:
+[Test 342](https://github.com/nidhidhamnani/markdown-parser/blob/main/test-files/342.md)
 
 There are no valid links. The correct output should simply be [].
 
