@@ -26,23 +26,26 @@ I decided to take a look at files 201 and 342.
 
 ## Determining Correct Output
 
-my-markdown-parser:
-
 Test 201:
+
 There are no valid links. The correct output should simply be [].
 
 Test 342:
 
 There are no valid links. The correct output should simply be [].
+
+## Each Implementation
+
+my-markdown-parser:
+
+This is a correct implementation, as we get both outputs at [].
+
+![](https://github.com/andrewonozuka/cse15l-lab-reports/blob/main/ss-lr5/Screen%20Shot%202022-06-05%20at%2023.52.02.png?raw=true)
 
 markdown-parser:
 
-Test 201:
+This is not a correct implementation, as we do not get [].
 
-There are no valid links. The correct output should simply be [].
-
-Test 342:
-
-There are no valid links. The correct output should simply be [].
+![](https://github.com/andrewonozuka/cse15l-lab-reports/blob/main/ss-lr5/Screen%20Shot%202022-06-05%20at%2023.50.46.png?raw=true)
 
 
