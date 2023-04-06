@@ -8,7 +8,7 @@
 
 2 | [Use this link to download VScode!](https://code.visualstudio.com/download) Make sure you download the right version for your operating system. (macOS, Windows, Linux)
 
-![Screenshot](https://github.com/andrewonozuka/cse15l-lab-reports/blob/main/Screen%20Shot%202022-04-08%20at%2009.22.27.png?raw=true)
+![Screenshot](https://github.com/andrewonozuka/cse15l-lab-reports/blob/main/Screenshots/Screen%20Shot%202022-04-08%20at%2009.22.27.png?raw=true)
 
 3 | After you have installed VScode, you're ready to go!
 
