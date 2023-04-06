@@ -32,7 +32,7 @@ ssh cs15lsp22xxx@ieng6.ucsd.edu
 
 The whole process should look like this:
 
-![Screenshot](https://github.com/andrewonozuka/cse15l-lab-reports/blob/main/Screen%20Shot%202022-04-08%20at%2009.46.08.png?raw=true)
+![Screenshot](https://github.com/andrewonozuka/cse15l-lab-reports/blob/main/Screenshots/Screen%20Shot%202022-04-08%20at%2009.46.08.png?raw=true)
 
 ## Trying Some Commands
 
@@ -51,7 +51,7 @@ ls -a # list all
 
 3 | Here's an example of what it might look like:
 
-![Screenshot](https://github.com/andrewonozuka/cse15l-lab-reports/blob/main/Screen%20Shot%202022-04-08%20at%2010.11.03.png?raw=true)
+![Screenshot](https://github.com/andrewonozuka/cse15l-lab-reports/blob/main/Screenshots/Screen%20Shot%202022-04-08%20at%2010.11.03.png?raw=true)
 
 ## Moving Files with scp
 
@@ -85,7 +85,7 @@ You will then be prompted to enter your password.
 
 Below is my example from lab 1:
 
-![Screenshot](https://github.com/andrewonozuka/cse15l-lab-reports/blob/main/lORFbWcDjh7nzoRVQXzyWzspJ0KI1RICFO6b55nKb7HCIqC-3_zEGt_9mmPj2OaHdKoZcjn0P_Jv3bjAboM9fVAmkBLMIt3ZtUreiy591fH_mJwq3qGdAJEsYBd7.png?raw=true)
+![Screenshot](https://github.com/andrewonozuka/cse15l-lab-reports/blob/main/Screenshots/lORFbWcDjh7nzoRVQXzyWzspJ0KI1RICFO6b55nKb7HCIqC-3_zEGt_9mmPj2OaHdKoZcjn0P_Jv3bjAboM9fVAmkBLMIt3ZtUreiy591fH_mJwq3qGdAJEsYBd7.png?raw=true)
 
 ## Setting an SSH Key
 
@@ -119,7 +119,7 @@ scp /Users/<user-name>/.ssh/id_rsa.pub cs15lsp22zz@ieng6.ucsd.edu:~/.ssh/authori
 
 You have successfully set up an ssh key! It should look similar to this:
 
-![Screenshot](https://github.com/andrewonozuka/cse15l-lab-reports/blob/main/ZhAV1puUSET361DhEdnOSFe2vjwYE5Elj56vy96iMwLvTcMsIkWuFSS5e1bT7yzrP2ZhP8xVvN7zNZg8vvtTYrh4ucMeQExmmGY_-duAFvBq1pOTNSQr4DG7mN1Q.png?raw=true)
+![Screenshot](https://github.com/andrewonozuka/cse15l-lab-reports/blob/main/Screenshots/ZhAV1puUSET361DhEdnOSFe2vjwYE5Elj56vy96iMwLvTcMsIkWuFSS5e1bT7yzrP2ZhP8xVvN7zNZg8vvtTYrh4ucMeQExmmGY_-duAFvBq1pOTNSQr4DG7mN1Q.png?raw=true)
 
 ## Optimizing Remote Running
 
@@ -140,6 +140,6 @@ cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI
 
 Here's my example:
 
-![Screenshot](https://github.com/andrewonozuka/cse15l-lab-reports/blob/main/Screen%20Shot%202022-04-10%20at%2019.09.19.png?raw=true)
+![Screenshot](https://github.com/andrewonozuka/cse15l-lab-reports/blob/main/Screenshots/Screen%20Shot%202022-04-10%20at%2019.09.19.png?raw=true)
 
 Happy remote connecting!
